@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('我就知道你愿意 我会陪你走过接下来的日日夜夜。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,7 +9,7 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('我就知道你会选这个（叛逆小盆友）', A);
     });
 });
 
@@ -18,15 +18,15 @@ function A() {
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('我知道你不忍心让我一个人', C);
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('我知道你爱的就是我', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('不愿意，不存在的', E);
 }
 
 function E() {
@@ -34,23 +34,23 @@ function E() {
 }
 
 function F() {
-    modal('跟我走吧', G);
+    modal('跟我一起走向新的一年吧', G);
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('给你我平平淡淡的等待和守候', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('给你我轰轰烈烈的渴望和温柔', I);
 }
 
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('给你我百转千回的喜乐和忧愁', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('给你我微不足道 所有的所有', function() {
         fireworks();
     });
 }
