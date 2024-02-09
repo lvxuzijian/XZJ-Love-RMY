@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道你愿意 我会陪你走过接下来的日日夜夜。(^_^)', function() {
+        modal('我就知道你愿意 不只2024 我们都要携手同行。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,28 +9,28 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('我就知道你会选这个（叛逆小盆友）', A);
+        modal('我就知道你会选这个的（叛逆的小盆友）😁', A);
     });
 });
 
 function A() {
-    modal('我喜欢你！', B);
+    modal('不能陪你一起放烟花 但我想做点什么', B);
 }
 
 function B() {
-    modal('我知道你不忍心让我一个人', C);
+    modal('有些仓促 但爱你是认真的', C);
 }
 
 function C() {
-    modal('我知道你爱的就是我', D);
+    modal('新的一年 祝愿你龙行龘龘 龙年大吉', D);
 }
 
 function D() {
-    modal('不愿意，不存在的', E);
+    modal('理科生专属的浪漫叭', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我', F);
+    modal('在我心中你的重要不言而喻', F);
 }
 
 function F() {
